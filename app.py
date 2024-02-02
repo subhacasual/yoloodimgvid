@@ -63,7 +63,8 @@ st.title("CoolR Model Inference App")
 
 input_type = st.radio(
     "Choose your Input type...",
-    options=["Image 🖼️", "Video :movie_camera:"])
+    options=["Image 🖼️", "Live Feed 📽️"],
+    horizontal=True)
     # captions = ["Select to run inferecne on image", "To run inference on live video."])
 
 if input_type == "Image 🖼️":
