@@ -38,8 +38,8 @@ right: 2rem;
 </style>
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
-hide_streamlit_style = """ <style> #MainMenu {visibility: hidden;} #GithubIcon {visibility: hidden;} footer {visibility: hidden;}</style> """ 
-st.markdown(hide_streamlit_style, unsafe_allow_html=True) # Hides the Hamburger menu and footer
+# hide_streamlit_style = """ <style> #MainMenu {visibility: hidden;} #GithubIcon {visibility: hidden;} footer {visibility: hidden;}</style> """ 
+# st.markdown(hide_streamlit_style, unsafe_allow_html=True) # Hides the Hamburger menu and footer
 
 # Add custom CSS to hide the GitHub icon
 hide_github_icon = """
