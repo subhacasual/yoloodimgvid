@@ -35,6 +35,9 @@ right: 2rem;
     background-color: #3d2c5c;
 }}
 
+#GithubIcon {{
+  visibility: hidden;
+}}
 
 
 </style>
