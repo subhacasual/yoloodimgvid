@@ -15,25 +15,11 @@ background: linear-gradient(167deg, rgba(2,0,36,1) 0%, rgba(103,87,129,1) 60%, r
 background: rgba(0,0,0,0);
 }}
 
-[data-testid="stSidebar"] {{
-background: rgba(0,0,0,0.5);
-
-}}
 
 [data-testid="stToolbar"] {{
 right: 2rem;
 }}
 
-[class="css-hc3laj e1ewe7hr10"] {{
-    background-color: #7d48d3;
-    transition: box-shadow 300ms ease-in-out,  color 300ms ease-in-out;
-    
-}}
-[data-testid="stFileUploadDropzone"]{{
-    background-color: #3d2c5c;
-    color: #ffffff;
-    border: 0.2px solid #7d48d3;
-}}
 
 [data-testid="stCameraInputButton"] {{
     background-color: #7d48d3;
