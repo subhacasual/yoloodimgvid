@@ -20,6 +20,11 @@ background: rgba(0,0,0,0);
 right: 2rem;
 }}
 
+[data-testid="stFileUploadDropzone"]{{
+    background-color: #3d2c5c;
+    color: #ffffff;
+    border: 0.2px solid #7d48d3;
+}}
 
 [data-testid="stCameraInputButton"] {{
     background-color: #7d48d3;
